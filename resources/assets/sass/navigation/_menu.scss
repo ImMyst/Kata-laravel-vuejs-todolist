@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+
+  &__item {
+    font-weight: bold;
+    color: $main-color;
+    background-size: 1px 1px;
+    background: linear-gradient($main-color, $main-color) repeat-x 0 76px;
+    font-size: 40px;
+    text-decoration: none;
+    &:hover { color: $main-color-hover; }
+    &:focus { background-image: linear-gradient($main-color, $main-color); color: $main-color; }
+  }
+}

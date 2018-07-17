@@ -1,0 +1,20 @@
+.form-add-task {
+  padding-top: 10px;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__input {
+    border-radius: 0;
+  }
+
+  &__button {
+    border-radius: inherit;
+    background-color: $main-color;
+    color: white;
+    &:hover { background-color: $main-color-hover; }
+    &:active { background-color: $main-color-active; }
+  }
+}
+
